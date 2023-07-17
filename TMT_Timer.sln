@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMT_Timer", "TMT_Timer\TMT_Timer.csproj", "{47EBCD83-1B16-4BD4-BC26-B7D20DE3FD27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47EBCD83-1B16-4BD4-BC26-B7D20DE3FD27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47EBCD83-1B16-4BD4-BC26-B7D20DE3FD27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47EBCD83-1B16-4BD4-BC26-B7D20DE3FD27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47EBCD83-1B16-4BD4-BC26-B7D20DE3FD27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

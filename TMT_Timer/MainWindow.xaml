@@ -1,0 +1,35 @@
+﻿<Window x:Class="TMT_Timer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TMT_Timer"
+        mc:Ignorable="d"
+        Closing="MainWindow_OnClosing"
+        Title="TMT タイマー" Height="200" Width="300">
+    <!-- <Window.Resources> -->
+    <!--      -->
+    <!-- </Window.Resources> -->
+    <Grid>
+        <StackPanel VerticalAlignment="Center"
+                    HorizontalAlignment="Stretch"
+                    Margin="20">
+            <Label 
+                x:Name="Label1"
+                Content="Label1"></Label>
+            <Label 
+                x:Name="Label2"
+                Content="Label2"></Label>
+            <Button x:Name="ButtonStart"
+                    Click="ButtonStart_OnClick">作業開始</Button>
+            <Button x:Name="ButtonRest"
+                    Click="ButtonRest_OnClick"
+                    >休憩する</Button>
+        </StackPanel>
+        <Grid.ContextMenu>
+            <ContextMenu>
+                <MenuItem Click="ExitMenuItem_OnClick" Header="終了" />
+            </ContextMenu>
+        </Grid.ContextMenu>
+    </Grid>
+</Window>
