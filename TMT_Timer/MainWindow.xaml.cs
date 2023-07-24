@@ -39,6 +39,14 @@ namespace TMT_Timer
             if (_endDt < now)
             {
                 var str = $"休憩時間は終わりました。\n{_count + 1}回目の作業を始めてください";
+                Label1.Content = str;
+                
+                ShowForm();
+
+                ButtonStart.IsEnabled = true;
+                ButtonRest.IsEnabled = false;
+                
+                _timerRest.Stop();
             }
         }
 
@@ -99,6 +107,8 @@ namespace TMT_Timer
             
             var str = $"{_endDt:HH 時 mm 分} まで休憩しましょう";
             Label1.Content = str;
+
+            ButtonRest.IsEnabled = false;
             
             _timerRest.Start();
         }
