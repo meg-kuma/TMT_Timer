@@ -42,6 +42,8 @@ namespace TMT_Timer
                 Label1.Content = str;
                 
                 ShowForm();
+                
+                System.Media.SystemSounds.Asterisk.Play();
 
                 ButtonStart.IsEnabled = true;
                 ButtonRest.IsEnabled = false;
@@ -59,6 +61,8 @@ namespace TMT_Timer
                 Label1.Content = str;
 
                 ShowForm();
+
+                System.Media.SystemSounds.Asterisk.Play();
 
                 ButtonRest.IsEnabled = true;
                 ButtonStart.IsEnabled = false;
