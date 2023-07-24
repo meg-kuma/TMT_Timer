@@ -11,7 +11,7 @@ namespace TMT_Timer
     /// </summary>
     public partial class App : Application
     {
-        private NotifyIcon _notifyIcon = new NotifyIcon();
+        private readonly NotifyIcon _notifyIcon = new NotifyIcon();
 
         public App()
         {
